@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Site Personnel</title>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">Seifeddine Zaidi</a>
+    <nav class="navigation">
+      <a href="#Carriere">Carriére</a>
+      <a href="#Comp">Compétance</a>
+      <a href="#Event">Evénement</a>
+      <a href="#projects">Projets</a>
+      <a href="#Interet">Interet</a>
+      <a href="#contact">Contact</a>
+
+
+    </nav>
+  </header>
+
+  <section class="main">
+    <div>
+      <h2>
+        Salut , je suis seifeddine ZAIDI<br /><span>Etudiant en génie <br />informatique</span>
+      </h2>
+      <h3>Futur ingénieur</h3>
+      <a href="#projects" class="main-btn">Voir mes projets</a>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/saifeddine-zaidi-2394a9221/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/zaidi280"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/zaidi.saif.980/"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="Carriere">
+    <div class="container">
+      <div class="box-shadow-full">
+        <div class="row">
+          <div>
+            <div class="about-img">
+              <img src="images/img.jpg" alt="" />
+            </div>
+          </div>
+          <div>
+            <div class="about-info">
+              <p>
+                <span class="title-s">Nom: </span>
+                <span>Seifeddine ZAIDI</span>
+              </p>
+              <p>
+                <span class="title-s">Profil: </span>
+                <span>Future ingénieur</span>
+              </p>
+              <p>
+                <span class="title-s">Email: </span>
+                <span>zaidisaif95@gmail.com</span>
+              </p>
+              <p>
+                <span class="title-s">Téléphone: </span>
+                <span>(216+) 23508270</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+
+          <div class="about-me">
+            <div class="title-box-2">
+              <h5 class="title-left">À propos de moi</h5>
+            </div>
+            <p class="lead">
+              je suis actuellement un étudiant en 1ere année génie informarique. J'ai une passion pour
+              l'apprentissage et le partage de mes connaissances avec les
+              autres. Je souhaite améliorer mes compétences dans le domaine de
+              IT. J' utilise mon savoir-faire technique au profit des autres .
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="resume">
+      <div class="container">
+        <br><br>
+        <div class="section-title">
+          <h2>Carriére</h2>
+          <p> Parcours Académique</p>
+        </div>
+        <br>
+        <div class="resume-container">
+          <div class="resume-column ">
+
+            <div class="resume-item">
+              <h4>Etudiant en Cycle d'ingénieur &amp; Génie informatique</h4>
+              <h5>2023 - 2024</h5>
+              <p><em>Institute international de Technology</em></p>
+            </div>
+            <br>
+            <div class="resume-item">
+              <h4>Licence &amp; en informatique appliquée à la gestion</h4>
+              <h5>2022-2023</h5>
+              <p><em>Faculté des Sciences Economiques et de Gestion de Sfax (FSEGS)</em></p>
+
+            </div>
+          </div>
+          <div class="resume-column">
+
+            <div class="resume-item">
+              <h4 id="texte" onclick="afficherPopup()">Baccalauréat en science économique et gestion</h4>
+              <!-- Overlay obscurci -->
+              <div id="overlay"></div>
+
+              <!-- Contenu de la pop-up -->
+              <div id="popup">
+                <img src="images/background.png" alt="bac" width="500px" height="400px" />
+              </div>
+              <script>
+                function afficherPopup() {
+                  // Récupérer les éléments
+                  var popup = document.getElementById("popup");
+                  var overlay = document.getElementById("overlay");
+
+                  // Afficher la pop-up et l'overlay
+                  popup.style.display = "block";
+                  overlay.style.display = "block";
+
+                  // Ajouter un événement pour fermer la pop-up en cliquant en dehors de celle-ci
+                  overlay.onclick = function () {
+                    popup.style.display = "none";
+                    overlay.style.display = "none";
+                  };
+                }
+              </script>
+              <h5>2019-2020</h5>
+              <p><em>Lycée Habib Thameur à Sfax</em></p>
+
+            </div>
+            <br>
+            <div class="resume-column">
+              <h3>Experience Professionnel</h3>
+              <br>
+              <div class="resume-item">
+                <h4>Stage de fin d'étude</h4>
+                <h5>3 mois</h5>
+                <p><em>Université de sfax </em></p>
+                <p>
+                <ul>
+                  <li> concevoir et réaliser une
+                    application Web intitulée « gestion des missions internes et externes » dans le cadre d'un
+                    projet de fin d'étude
+                  </li>
+                  <li>informatiser les tâches des membres de l'université, la
+                    consultation, l'affectation et la validation des ordres des missions ainsi que les demandes des
+                    missions
+                  </li>
+                </ul>
+                </p>
+              </div>
+              <br><br>
+              <a href="https://drive.google.com/file/d/1R9AbMd7JiSYbbFXq8pA42UdEcXy1Zto2/view?usp=sharing">
+                <button>
+                  <span class="circle1"></span>
+                  <span class="circle2"></span>
+                  <span class="circle3"></span>
+                  <span class="circle4"></span>
+                  <span class="circle5"></span>
+                  <span class="text">VOIR MON CV!</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <section class="projects" id="Comp">
+    <div class="section-titleproj">
+      <h2>Compétences</h2>
+      <p> Compétences informatiques maîtrisées</p>
+    </div>
+    <br>
+
+    </div>
+    <div class="containerproj">
+      <div class="skill-box">
+        <span class="title">FRAMEWORK :</span>
+        <span class="title">Bootstrap</span>
+
+        <div class="skill-bar">
+          <span class="skill-per Bootstrap">
+            <span class="tooltip">80%</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <span class="title">Symfony</span>
+
+        <div class="skill-bar">
+          <span class="skill-per Symfony">
+            <span class="tooltip">70%</span>
+          </span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <span class="title">Spring boot
+        </span>
+
+        <div class="skill-bar">
+          <span class="skill-per Spring-boot">
+            <span class="tooltip">50%</span>
+          </span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <span class="title">LES LANGUAGES DE PROGRAMMATION :</span>
+        <span class="title">PHP</span>
+
+        <div class="skill-bar">
+          <span class="skill-per php">
+            <span class="tooltip">70%</span>
+          </span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <span class="title">C#</span>
+        <div class="skill-bar">
+          <span class="skill-per Csh">
+            <span class="tooltip">50%</span>
+          </span>
+        </div>
+      </div>
+      <div class="skill-box">
+
+        <span class="title">SQL</span>
+
+        <div class="skill-bar">
+          <span class="skill-per SQL">
+            <span class="tooltip">60%</span>
+          </span>
+        </div>
+      </div>
+      <div class="skill-box">
+
+        <span class="title">JAVA</span>
+
+        <div class="skill-bar">
+          <span class="skill-per JAVA">
+            <span class="tooltip">60%</span>
+          </span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <span class="title">OUTILS DE DÉVELOPPEMENT :</span>
+        <ul>
+          <li class="title"> -> Visual Studio Code</li>
+          <li class="title"> -> Eclipse</li>
+          <li class="title"> -> MySQL</li>
+          <li class="title"> -> Xampp</li>
+          <li class="title"> -> Spring tool suite</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+
+
+  </section>
+
+  <section class="cards contact" id="Event">
+    <div class="section-title">
+      <h2>Vie associative</h2>
+      <p> les manifestations scientifiques, les journées de formation, les
+        évènements</p>
+    </div>
+    <br>
+    <img class="galerie" src="images/int.png" alt="" height="200px" width="200px">
+    <img class="galerie" src="images/fomation.png" alt="" height="200px" width="200px">
+    <img class="galerie" src="images/formation1.png" alt="" height="200px" width="200px">
+    <img class="galerie" src="images/formation2.jpg" alt="" height="200px" width="200px">
+    <img class="galerie" src="images/integration2.png" alt="" height="200px" width="200px">
+    <img class="galerie" src="images/marketing.jpg" alt="" height="200px" width="200px">
+    <img class="galerie" src="images/integ3.jpg" alt="" height="200px" width="200px">
+    <img class="galerie" src="images/integ4.jpg" alt="" height="200px" width="200px">
+    <br><br><br>
+    <div id="resume" class="resume">
+      <div class="container">
+        <h3 style="text-align: center;">EXPÉRIENCES ASSOCIATIVES</h3>
+        <div class="resume-container">
+          <div class="resume-column">
+
+            <br>
+            <div class="resume-item">
+              <h4>Responsable Marketing Digital au Tunisian Programming Lovers Club
+                Fseg Sfax
+              </h4>
+              <h5>2021-2023</h5>
+              <p><em>Faculté des Sciences Economiques et de
+                  Gestion de Sfax (FSEGS)
+                </em></p>
+              <p>
+              <ul>
+                <li> S'occupe de la gestion des réseaux sociaux du club.</li>
+                <li> S'occupe de préparer les vidéos et des affiches du club. </li>
+                <li>Responsable pour construire et développer une image de marque
+                  positive pour valoriser le club.</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="resume-column">
+
+            <br>
+            <div class="resume-item">
+              <h4>Membre Actif au Club Tunivision Fseg Sfax
+              </h4>
+              <h5>2020-2021</h5>
+              <p><em>Faculté des Sciences Economiques et de
+                  Gestion de Sfax (FSEGS)
+                </em></p>
+              <p>
+              <ul>
+                <li> Participer à des ateliers et à des conférences.</li>
+                <li>Négocier des paquets avec les sponsors. </li>
+                <li>Participer à l'organisation des événements.</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <section href="#projects" class="projects" id="projects">
+    <div class="section-titleproj">
+      <h2>Projet</h2>
+      <p> Projets acedémique et de fin d'etude</p>
+    </div>
+    <br>
+    <div class="content">
+      <div class="project-card">
+        <div class="project-image">
+          <img src="images/gestion_miss.png" />
+        </div>
+        <div class="project-info">
+          <p class="project-category">Développement web</p>
+          <strong class="project-title">
+            <span>Gestion des missions internes et externes</span>
+
+          </strong>
+          <p>l'Université de Sfax nous a proposé de concevoir et de réaliser une
+            application Web intitulée « gestion des missions internes et externes » dans le cadre d'un
+            projet de fin d'étude d'où l'objet est d'informatiser les tâches des membres de l'université, la
+            consultation, l'affectation et la validation des ordres des missions ainsi que les demandes des
+            missions.</p>
+          <a href="https://github.com/zaidi280/Gestion-Mission" class="more-details">Plus de détails</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <img src="images/gestion_cabinet.png" />
+        </div>
+        <div class="project-info">
+          <p class="project-category">Développement web</p>
+          <strong class="project-title">
+            <span>Gestion de cabinet</span>
+          </strong>
+          <p>L'objectif de ce projet est de mettre en place une application
+            web pour géreér les rendez-vous d'un cabinet de médecin
+            généraliste. C'est une simple application académique Crud
+            faite avec PHP/Bootstrap et le modèle MVC </p>
+          <a href="https://github.com/zaidi280/web-application-project" class="more-details">Plus de détails</a>
+        </div>
+      </div>
+  </section>
+  <section class="cards contact" id="Interet">
+    <div class="section-title">
+      <h2>CENTRES D'INTÉRÊT</h2>
+      <p> Centre d'INTÉRÊT et Soft skills</p>
+    </div>
+    <div id="resume" class="resume">
+      <div class="container">
+
+        <div class="resume-container">
+          <div class="resume-column">
+
+            <br>
+            <div class="resume-item">
+              <h4>CENTRES D'INTÉRÊT
+              </h4>
+              <p>
+              <ul>
+                <li> Les Nouvelles compétitions et technologies.</li>
+                <li> Ui / Ux Design .</li>
+                <li>Marketing.</li>
+                <li>Musique.</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="resume-column">
+
+            <br>
+            <div class="resume-item">
+
+              <h4>Soft skills
+              </h4>
+              <p>
+              <ul>
+                <li> La responsabilité.</li>
+                <li>Sens des priorités. </li>
+                <li>Confiance en soi.
+                </li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <div class="section-titleproj">
+      <h2>Quiz</h2>
+      <p> Page de quiz</p>
+    </div>
+    <br>
+    <div class="quiz">
+      <p>Quelle organisation définit les standards web</p>
+
+      <hr>
+      <input type="radio" name="question1"><span>Apple inc</span><br>
+      <input type="radio" name="question1"><span>IBM corporation</span><br>
+      <input type="radio" name="question1" id="correct1"><span>World wide web consortium</span><br>
+      <input type="radio" name="question1"><span>Microsoft corporation</span><br>
+      <textarea name="reponse" id="rep1" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
+      <button
+        onclick="changer(1, 'Le World Wide Web Consortium (W3C) est une communauté internationale qui développe des normes ouvertes pour assurer la croissance à long terme du Web.')">SUBMIT</button>
+      <button class="next" onclick="next(1)">SUIVANT</button>
+    </div>
+
+    <div class="quiz">
+      <p>HTML est considéré comme ______ ?</p>
+
+
+      <hr>
+      <input type="radio" name="question2"><span>Langage de programmation</span><br>
+      <input type="radio" name="question2"><span>Langage poo</span><br>
+      <input type="radio" name="question2"><span>Langage de haut niveau</span><br>
+      <input type="radio" name="question2" id="correct2"><span>Langage de balisage</span><br>
+      <textarea name="reponse" id="rep2" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
+      <button
+        onclick="changer(2, 'Les langages de balisage sont les langages du Web. Ces langages de balisage incluent HTML, XML et XHTML')">SUBMIT</button>
+      <button class="next" onclick="next(2)">SUIVANT</button>
+    </div>
+
+    <div class="quiz">
+      <p> HTML utilise des ______?</p>
+
+      <hr>
+      <input type="radio" name="question3"><span> Balises définis par l'utilisateur</span><br>
+      <input type="radio" name="question3"><span> Balises prédéfinis </span><br>
+      <input type="radio" name="question3" id="correct3"><span> Balises fixes définis par le langage</span><br>
+      <input type="radio" name="question3"><span> Balises uniquement pour les liens</span><br>
+      <textarea name="reponse" id="rep3" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
+      <button onclick="changer(3, 'Balises fixes définis par le langage')">SUBMIT</button>
+      <button class="next" onclick="next(3)">SUIVANT</button>
+
+    </div>
+    <div class="quiz">
+      <p> Lequel des éléments suivants n'est pas un exemple de navigateur?</p>
+
+      <hr>
+      <input type="radio" name="question4"><span>Mozilla Firefox</span><br>
+      <input type="radio" name="question4"><span>Netscape</span><br>
+      <input type="radio" name="question4" id="correct4"><span>Microsoft Bing</span><br>
+      <input type="radio" name="question4"><span>Opéra</span><br>
+      <textarea name="reponse" id="rep4" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
+      <button
+        onclick="changer(4, 'Bing est un moteur de recherche Web détenu et exploité par Microsoft.')">SUBMIT</button>
+      <button class="next" onclick="next(4)">SUIVANT</button>
+    </div>
+    <div class="quiz">
+      <p> Si nous souhaitons définir le style d'un seule élément, quel sélecteur css utiliserons-nous?</p>
+
+      <hr>
+      <input type="radio" name="question5"><span>id</span><br>
+      <input type="radio" name="question5"><span>text</span><br>
+      <input type="radio" name="question5"><span>class</span><br>
+      <input type="radio" name="question5" id="correct5"><span>name</span><br>
+      <textarea name="reponse" id="rep5" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
+      <button
+        onclick="changer(5, 'Lattribut id peut être appliqué à nimporte quel élément HTML. La valeur de cet attribut est lidentifiant unique de lélément')">SUBMIT</button>
+      <button class="next" onclick="next(5)">SUIVANT</button>
+
+    </div>
+    <div class="quiz">
+      <p> Q3 what is 300+200?</p>
+
+      <hr>
+      <input type="radio" name="question6"><span>Design</span><br>
+      <input type="radio" name="question6"><span>Style</span><br>
+      <input type="radio" name="question6"><span>Modify</span><br>
+      <input type="radio" name="question6" id="correct6"><span>Define</span><br>
+      <textarea name="reponse" id="rep6" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
+      <button onclick="changer(6, 'Lattribut style spécifie un style inline pour un élément')">SUBMIT</button>
+      <button class="next" onclick="next(6)">SUIVANT</button>
+
+    </div>
+    <div class="quiz">
+      <p> Un type de document HTML plus strict est connu sous ______ ?</p>
+
+      <hr>
+      <input type="radio" name="question7"><span>DHTML</span><br>
+      <input type="radio" name="question7"><span>XHTML</span><br>
+      <input type="radio" name="question7"><span>XML</span><br>
+      <input type="radio" name="question7" id="correct7"><span>HTML</span><br>
+      <textarea name="reponse" id="rep7" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
+      <button
+        onclick="changer(7, 'XHTML signifie EXtensible HyperText Markup Language, basé sur XML, est plus strict que HTML, et est supporté par presque tous les navigateurs Web.')">SUBMIT</button>
+      <button class="next" onclick="next(7)">SUIVANT</button>
+
+    </div>
+    <div class="quiz">
+      <p> Si nous souhaitons placer du texte autour d'une image, quelle propriété CSS nous allons utiliser?</p>
+
+      <hr>
+      <input type="radio" name="question8"><span>push</span><br>
+      <input type="radio" name="question8"><span>float</span><br>
+      <input type="radio" name="question8"><span>align</span><br>
+      <input type="radio" name="question8" id="correct8"><span>wrap</span><br>
+      <textarea name="reponse" id="rep8" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
+      <button
+        onclick="changer(8, 'La propriété float indique qu\'un élément doit être mis sur le côté droit ou gauche de son conteneur')">SUBMIT</button>
+      <button class="next" onclick="next(8)">SUIVANT</button>
+
+    </div>
+    <div class="quiz">
+      <p> Peut-on aligner un élément en définissant margin-left et margin-right?</p>
+
+      <hr>
+      <input type="radio" name="question9"><span>Oui, c'est possible</span><br>
+      <input type="radio" name="question9" id="correct9"><span>Non, ce n'est pas possible.</span><br>
+      <textarea name="reponse" id="rep9" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
+      <button
+        onclick="changer(9, 'Un élément commence toujours sur une nouvelle ligne et occupe toute la largeur disponible.')">SUBMIT</button>
+      <button class="next" onclick="next(9)">SUIVANT</button>
+
+    </div>
+    <div class="quiz">
+      <p>Peut-on définir la direction du texte via une propriété CSS?</p>
+
+      <hr>
+      <input type="radio" name="question10" id="correct10"><span>Oui, c'est possible.</span><br>
+      <input type="radio" name="question10"><span>Non, ce n'est pas possible.</span><br>
+      <textarea name="reponse" id="rep10" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
+      <button
+        onclick="changer(10, ' La propriété « direction » en CSS définit la direction du flux de contenu dun élément.')">SUBMIT</button>
+      <button onclick="result()">SUBMIT QUIZ</button>
+    </div>
+    <script>
+
+      // displaying the first block of question
+      document.getElementsByClassName('quiz')[0].style.display = "block";
+
+      // DEFINING THE NEXT FUNCTION
+      function next(id) {
+        document.getElementsByClassName('quiz')[id - 1].style.display = "none";
+        document.getElementsByClassName('quiz')[id].style.display = "block";
+      }
+      function changer(questionId, reponseText) {
+        var correctId = 'correct' + questionId;
+        var repId = 'rep' + questionId;
+
+        if (document.getElementById(correctId).checked) {
+          document.getElementById(repId).value = "C'est vrai! " + reponseText;
+          document.getElementById(correctId).parentNode.style.backgroundColor = "green";
+        } else {
+          document.getElementById(repId).value = "C'est faux. La bonne réponse est : " + reponseText;
+          document.getElementById(correctId).parentNode.style.backgroundColor = "red";
+        }
+      }
+      //getting final result
+      function result() {
+        var score = 0;
+        if (document.getElementById('correct1').checked) {
+          score++;
+        }
+        if (document.getElementById('correct2').checked) {
+          score++;
+        }
+        if (document.getElementById('correct3').checked) {
+          score++;
+        }
+        if (document.getElementById('correct4').checked) {
+          score++;
+        }
+        if (document.getElementById('correct5').checked) {
+          score++;
+        }
+        if (document.getElementById('correct6').checked) {
+          score++;
+        }
+        if (document.getElementById('correct7').checked) {
+          score++;
+        }
+        if (document.getElementById('correct8').checked) {
+          score++;
+        }
+        if (document.getElementById('correct9').checked) {
+          score++;
+        }
+        if (document.getElementById('correct10').checked) {
+          score++;
+        }
+        alert("your score is: " + score);
+      }
+    </script>
+  </section>
+  <section class="cards contact" id="contact">
+
+    <div class="section-title">
+      <h2>Contact</h2>
+      <p> Contacter moi</p>
+    </div>
+    <br>
+    <div class="contactform">
+      <form action="">
+        <div class="contact-form">
+
+
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required />
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+          <label for="sujet">Sujet:</label>
+          <input type="sujet" id="sujet" name="sujet" required />
+          <label for="Message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <button type="submit">Envoyer</button>
+
+      </form>
+
+    </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer-title">Copyrights @ <span>Seifeddine ZAIDI</span></p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/saifeddine-zaidi-2394a9221/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/zaidi280"><i class="fab fa-github"></i></a>
+      <a href="https://www.facebook.com/zaidi.saif.980/"><i class="fab fa-facebook"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>
