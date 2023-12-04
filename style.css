@@ -271,16 +271,10 @@ section {
   }
 }
 
-@media (max-width: 641px) {
+@media (max-width: 800px) {
   body {
     font-size: 18px;
     width: 1000px;
-  }
-}
-
-@media (max-width: 300px) {
-  body {
-    font-size: 10px;
   }
 }
 .box-shadow-full {
