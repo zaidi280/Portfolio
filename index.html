@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
+  
   <title>Site Personnel</title>
 </head>
 
@@ -430,230 +431,30 @@
 
     </div>
   </section>
-  <section class="projects" id="projects">
-    <div class="section-titleproj">
-      <h2>Quiz</h2>
-      <p> Page de quiz</p>
+  
+  <section class="cards contact" id="contact">
+    <h2 class="title">Let's work together</h2>
+    <div class="content">
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-phone"></i>
+            </div>
+            <div class="info">
+                <h3>Phone</h3>
+                <p>+216 23 508 270</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+                <h3>Email</h3>
+                <p>zaidisaif95@gmail.com</p>
+            </div>
+        </div>
     </div>
-    <br>
-    <div class="quiz">
-      <p>Quelle organisation définit les standards web</p>
-
-      <hr>
-      <input type="radio" name="question1"><span>Apple inc</span><br>
-      <input type="radio" name="question1"><span>IBM corporation</span><br>
-      <input type="radio" name="question1" id="correct1"><span>World wide web consortium</span><br>
-      <input type="radio" name="question1"><span>Microsoft corporation</span><br>
-      <textarea name="reponse" id="rep1" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
-      <button
-        onclick="changer(1, 'Le World Wide Web Consortium (W3C) est une communauté internationale qui développe des normes ouvertes pour assurer la croissance à long terme du Web.')">SUBMIT</button>
-      <button class="next" onclick="next(1)">SUIVANT</button>
-    </div>
-
-    <div class="quiz">
-      <p>HTML est considéré comme ______ ?</p>
-
-
-      <hr>
-      <input type="radio" name="question2"><span>Langage de programmation</span><br>
-      <input type="radio" name="question2"><span>Langage poo</span><br>
-      <input type="radio" name="question2"><span>Langage de haut niveau</span><br>
-      <input type="radio" name="question2" id="correct2"><span>Langage de balisage</span><br>
-      <textarea name="reponse" id="rep2" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
-      <button
-        onclick="changer(2, 'Les langages de balisage sont les langages du Web. Ces langages de balisage incluent HTML, XML et XHTML')">SUBMIT</button>
-      <button class="next" onclick="next(2)">SUIVANT</button>
-    </div>
-
-    <div class="quiz">
-      <p> HTML utilise des ______?</p>
-
-      <hr>
-      <input type="radio" name="question3"><span> Balises définis par l'utilisateur</span><br>
-      <input type="radio" name="question3"><span> Balises prédéfinis </span><br>
-      <input type="radio" name="question3" id="correct3"><span> Balises fixes définis par le langage</span><br>
-      <input type="radio" name="question3"><span> Balises uniquement pour les liens</span><br>
-      <textarea name="reponse" id="rep3" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
-      <button onclick="changer(3, 'Balises fixes définis par le langage')">SUBMIT</button>
-      <button class="next" onclick="next(3)">SUIVANT</button>
-
-    </div>
-    <div class="quiz">
-      <p> Lequel des éléments suivants n'est pas un exemple de navigateur?</p>
-
-      <hr>
-      <input type="radio" name="question4"><span>Mozilla Firefox</span><br>
-      <input type="radio" name="question4"><span>Netscape</span><br>
-      <input type="radio" name="question4" id="correct4"><span>Microsoft Bing</span><br>
-      <input type="radio" name="question4"><span>Opéra</span><br>
-      <textarea name="reponse" id="rep4" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
-      <button
-        onclick="changer(4, 'Bing est un moteur de recherche Web détenu et exploité par Microsoft.')">SUBMIT</button>
-      <button class="next" onclick="next(4)">SUIVANT</button>
-    </div>
-    <div class="quiz">
-      <p> Si nous souhaitons définir le style d'un seule élément, quel sélecteur css utiliserons-nous?</p>
-
-      <hr>
-      <input type="radio" name="question5"><span>id</span><br>
-      <input type="radio" name="question5"><span>text</span><br>
-      <input type="radio" name="question5"><span>class</span><br>
-      <input type="radio" name="question5" id="correct5"><span>name</span><br>
-      <textarea name="reponse" id="rep5" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
-      <button
-        onclick="changer(5, 'Lattribut id peut être appliqué à nimporte quel élément HTML. La valeur de cet attribut est lidentifiant unique de lélément')">SUBMIT</button>
-      <button class="next" onclick="next(5)">SUIVANT</button>
-
-    </div>
-    <div class="quiz">
-      <p> Qu'est ce qu'un navigateur web ?</p>
-
-      <hr>
-      <input type="radio" name="question6"><span>Un outil permettant d'accéder à Internet</span><br>
-      <input type="radio" name="question6"><span>Un réseau social global</span><br>
-      <input type="radio" name="question6"><span>La toute première application mondiale</span><br>
-      <input type="radio" name="question6" id="correct6"><span>Un logiciel capable d'interpréter et d'afficher du code HTML</span><br>
-      <textarea name="reponse" id="rep6" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
-      <button onclick="changer(6, 'Un navigateur web nest rien dautre quune application (web ou native) capable de lire et afficher du code HTML, CSS et JavaScript sur un écran.')">SUBMIT</button>
-      <button class="next" onclick="next(6)">SUIVANT</button>
-
-    </div>
-    <div class="quiz">
-      <p> Un type de document HTML plus strict est connu sous ______ ?</p>
-
-      <hr>
-      <input type="radio" name="question7"><span>DHTML</span><br>
-      <input type="radio" name="question7"><span>XHTML</span><br>
-      <input type="radio" name="question7"><span>XML</span><br>
-      <input type="radio" name="question7" id="correct7"><span>HTML</span><br>
-      <textarea name="reponse" id="rep7" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
-      <button
-        onclick="changer(7, 'XHTML signifie EXtensible HyperText Markup Language, basé sur XML, est plus strict que HTML, et est supporté par presque tous les navigateurs Web.')">SUBMIT</button>
-      <button class="next" onclick="next(7)">SUIVANT</button>
-
-    </div>
-    <div class="quiz">
-      <p> Si nous souhaitons placer du texte autour d'une image, quelle propriété CSS nous allons utiliser?</p>
-
-      <hr>
-      <input type="radio" name="question8"><span>push</span><br>
-      <input type="radio" name="question8"><span>float</span><br>
-      <input type="radio" name="question8"><span>align</span><br>
-      <input type="radio" name="question8" id="correct8"><span>wrap</span><br>
-      <textarea name="reponse" id="rep8" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
-      <button
-        onclick="changer(8, 'La propriété float indique qu\'un élément doit être mis sur le côté droit ou gauche de son conteneur')">SUBMIT</button>
-      <button class="next" onclick="next(8)">SUIVANT</button>
-
-    </div>
-    <div class="quiz">
-      <p> Peut-on aligner un élément en définissant margin-left et margin-right?</p>
-
-      <hr>
-      <input type="radio" name="question9"><span>Oui, c'est possible</span><br>
-      <input type="radio" name="question9" id="correct9"><span>Non, ce n'est pas possible.</span><br>
-      <textarea name="reponse" id="rep9" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
-      <button
-        onclick="changer(9, 'Un élément commence toujours sur une nouvelle ligne et occupe toute la largeur disponible.')">SUBMIT</button>
-      <button class="next" onclick="next(9)">SUIVANT</button>
-
-    </div>
-    <div class="quiz">
-      <p>Peut-on définir la direction du texte via une propriété CSS?</p>
-
-      <hr>
-      <input type="radio" name="question10" id="correct10"><span>Oui, c'est possible.</span><br>
-      <input type="radio" name="question10"><span>Non, ce n'est pas possible.</span><br>
-      <textarea name="reponse" id="rep10" cols="30" rows="10">Veuillez choisir une option de la liste </textarea>
-      <button
-        onclick="changer(10, ' La propriété « direction » en CSS définit la direction du flux de contenu dun élément.')">SUBMIT</button>
-      <button onclick="result()">SUBMIT QUIZ</button>
-    </div>
-    <script>
-
-      // displaying the first block of question
-      document.getElementsByClassName('quiz')[0].style.display = "block";
-
-      // DEFINING THE NEXT FUNCTION
-      function next(id) {
-        document.getElementsByClassName('quiz')[id - 1].style.display = "none";
-        document.getElementsByClassName('quiz')[id].style.display = "block";
-      }
-      function changer(questionId, reponseText) {
-        var correctId = 'correct' + questionId;
-        var repId = 'rep' + questionId;
-
-        if (document.getElementById(correctId).checked) {
-          document.getElementById(repId).value = "C'est vrai! " + reponseText;
-          document.getElementById(correctId).parentNode.style.backgroundColor = "green";
-        } else {
-          document.getElementById(repId).value = "C'est faux. La bonne réponse est : " + reponseText;
-          document.getElementById(correctId).parentNode.style.backgroundColor = "red";
-        }
-      }
-      //getting final result
-      function result() {
-        var score = 0;
-        if (document.getElementById('correct1').checked) {
-          score++;
-        }
-        if (document.getElementById('correct2').checked) {
-          score++;
-        }
-        if (document.getElementById('correct3').checked) {
-          score++;
-        }
-        if (document.getElementById('correct4').checked) {
-          score++;
-        }
-        if (document.getElementById('correct5').checked) {
-          score++;
-        }
-        if (document.getElementById('correct6').checked) {
-          score++;
-        }
-        if (document.getElementById('correct7').checked) {
-          score++;
-        }
-        if (document.getElementById('correct8').checked) {
-          score++;
-        }
-        if (document.getElementById('correct9').checked) {
-          score++;
-        }
-        if (document.getElementById('correct10').checked) {
-          score++;
-        }
-        alert("Ton score est: " + score);
-      }
-    </script>
-  </section>
-  <section class="cards contact" id="contact" >
-
-    <div class="section-title">
-      <h2>Contact </h2>
-      <p> Contacter moi</p>
-    </div>
-    <br>
-    <div class="contactform">
-      <form action="">
-        <div class="contact-form">
-          <label for="nom">Nom :</label>
-          <input type="text" id="nom" name="nom" required />
-          <label for="email">Email :</label>
-          <input type="email" id="email" name="email" required />
-          <label for="sujet">Sujet:</label>
-          <input type="sujet" id="sujet" name="sujet" required />
-          <label for="Message">Message:</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-          <button type="submit">Envoyer</button>
-
-      </form>
-
-    </div>
-
-    </div>
-  </section>
+</section>
 
   <footer class="footer">
     <p class="footer-title">Copyrights @ <span>Seifeddine ZAIDI</span></p>
