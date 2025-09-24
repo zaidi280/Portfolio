@@ -1,469 +1,1325 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,height=device-height, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="style.css" />
-  
-  <title>Site Personnel</title>
-</head>
+    <title>Saifeddine ZAIDI - Software Engineer & Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Saifeddine ZAIDI - Software Engineering Student specializing in Web Development, Mobile Apps, and Full-Stack Solutions"
+    />
+    <meta
+      name="keywords"
+      content="Saifeddine ZAIDI, Software Engineer, Web Developer, Mobile Developer, JavaScript, Dart, TypeScript, PHP, Portfolio"
+    />
+  </head>
 
-<body>
-  <header>
-    <a href="#" class="logo">Seifeddine Zaidi</a>
-    <nav class="navigation">
-      <a href="#Carriere">Carriére</a>
-      <a href="#Comp">Compétance</a>
-      <a href="#Event">Evénement</a>
-      <a href="#projects">Projets</a>
-      <a href="#Interet">Interet</a>
-      <a href="#contact">Contact</a>
-
-
-    </nav>
-  </header>
-
-  <section class="main">
-    <div>
-      <h2>
-        Salut , je suis seifeddine ZAIDI<br /><span>Etudiant en génie <br />informatique</span>
-      </h2>
-      <h3>Futur ingénieur</h3>
-      <a href="#projects" class="main-btn">Voir mes projets</a>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/saifeddine-zaidi-2394a9221/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/zaidi280" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.facebook.com/zaidi.saif.980/" target="_blank"><i class="fab fa-facebook"></i></a>
-      </div>
-    </div>
-  </section>
-
-  <section id="Carriere">
-    <div class="container">
-      <div class="box-shadow-full">
-        <div class="row">
-          <div>
-            <div class="about-img">
-              <img src="images/img.jpg" alt="" />
-            </div>
-          </div>
-          <div>
-            <div class="about-info">
-              <p>
-                <span class="title-s">Nom: </span>
-                <span>Seifeddine ZAIDI</span>
-              </p>
-              <p>
-                <span class="title-s">Profil: </span>
-                <span>Future ingénieur</span>
-              </p>
-              <p>
-                <span class="title-s">Email: </span>
-                <span>zaidisaif95@gmail.com</span>
-              </p>
-              <p>
-                <span class="title-s">Téléphone: </span>
-                <span>(216+) 23508270</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div>
-
-          <div class="about-me">
-            <div class="title-box-2">
-              <h5 class="title-left">À propos de moi</h5>
-            </div>
-            <p class="lead">
-              je suis actuellement un étudiant en 1ere année génie informarique. J'ai une passion pour
-              l'apprentissage et le partage de mes connaissances avec les
-              autres. Je souhaite améliorer mes compétences dans le domaine de
-              IT. J' utilise mon savoir-faire technique au profit des autres .
-            </p>
-          </div>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="#" class="logo">Saifeddine ZAIDI</a>
+        <nav class="navigation">
+          <a href="#about">À propos</a>
+          <a href="#skills">Compétences</a>
+          <a href="#projects">Projets</a>
+          <a href="#associatif">Vie associative</a>
+          <a href="#experience">Expérience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
       </div>
-    </div>
-    <div class="resume">
+    </header>
+    <br /><br />
+    <br />
+
+    <section class="hero" id="home">
       <div class="container">
-        <br><br>
-        <div class="section-title">
-          <h2>Carriére</h2>
-          <p> Parcours Académique</p>
-        </div>
-        <br>
-        <div class="resume-container">
-          <div class="resume-column ">
-
-            <div class="resume-item">
-              <h4>Etudiant en Cycle d'ingénieur &amp; Génie informatique</h4>
-              <h5>2023 - 2024</h5>
-              <p><em>Institute international de Technology</em></p>
+        <div class="hero-content">
+          <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+            <h1>
+              Salut, je suis <span class="highlight">Saifeddine ZAIDI</span>
+            </h1>
+            <h2 class="hero-subtitle">
+              Étudiant en Génie Informatique & Développeur Full-Stack
+            </h2>
+            <p class="hero-description">
+              Animé par une véritable passion pour l'innovation technologique,
+              je conçois et développe des solutions web et mobiles modernes,
+              alliant performance, fiabilité et qualité. Mon approche vise à
+              transformer chaque idée en application concrète, tout en mettant
+              l'accent sur l'expérience utilisateur et la pérennité des projets.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-code"></i>
+                Voir mes projets
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <i class="fas fa-envelope"></i>
+                Me contacter
+              </a>
             </div>
-            <br>
-            <div class="resume-item">
-              <h4>Licence &amp; en informatique appliquée à la gestion</h4>
-              <h5>2022-2023</h5>
-              <p><em>Faculté des Sciences Economiques et de Gestion de Sfax (FSEGS)</em></p>
-
+            <div class="social-icons">
+              <a
+                href="https://www.linkedin.com/in/saifeddine-zaidi-2394a9221/"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/zaidi280"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/zaidi.saif.980/"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
             </div>
           </div>
-          <div class="resume-column">
-
-            <div class="resume-item">
-              <h4 id="texte" onclick="afficherPopup()">Baccalauréat en science économique et gestion</h4>
-              <!-- Overlay obscurci -->
-              <div id="overlay"></div>
-
-              <!-- Contenu de la pop-up -->
-              <div id="popup">
-                <img src="images/background.png" alt="bac" width="500px" height="400px" />
+          <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+            <div class="profile-container">
+              <img
+                src="images/me.png"
+                alt="Saifeddine ZAIDI"
+                class="profile-pic"
+              />
+              <div class="floating-elements">
+                <div class="floating-icon" style="--delay: 0s">
+                  <i class="fab fa-js-square"></i>
+                </div>
+                <div class="floating-icon" style="--delay: 1s">
+                  <i class="fab fa-angular"></i>
+                </div>
+                <div class="floating-icon" style="--delay: 2s">
+                  <i class="fab fa-php"></i>
+                </div>
+                <div class="floating-icon" style="--delay: 3s">
+                  <i class="fab fa-react"></i>
+                </div>
               </div>
-              <script>
-                function afficherPopup() {
-                  // Récupérer les éléments
-                  var popup = document.getElementById("popup");
-                  var overlay = document.getElementById("overlay");
-
-                  // Afficher la pop-up et l'overlay
-                  popup.style.display = "block";
-                  overlay.style.display = "block";
-
-                  // Ajouter un événement pour fermer la pop-up en cliquant en dehors de celle-ci
-                  overlay.onclick = function () {
-                    popup.style.display = "none";
-                    overlay.style.display = "none";
-                  };
-                }
-              </script>
-              <h5>2019-2020</h5>
-              <p><em>Lycée Habib Thameur à Sfax</em></p>
-
             </div>
-            <br>
-            <div class="resume-column">
-              <h3>Experience Professionnel</h3>
-              <br>
-              <div class="resume-item">
-                <h4>Stage de fin d'étude</h4>
-                <h5>3 mois</h5>
-                <p><em>Université de sfax </em></p>
-                <p>
-                <ul>
-                  <li> concevoir et réaliser une
-                    application Web intitulée « gestion des missions internes et externes » dans le cadre d'un
-                    projet de fin d'étude
-                  </li>
-                  <li>informatiser les tâches des membres de l'université, la
-                    consultation, l'affectation et la validation des ordres des missions ainsi que les demandes des
-                    missions
-                  </li>
-                </ul>
-                </p>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>À propos de moi</h2>
+          <p>Découvrez mon parcours et ma passion pour le développement</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text" data-aos="fade-right" data-aos-delay="200">
+            <div class="about-card">
+              <h3><i class="fas fa-user"></i> Qui je suis</h3>
+              <p>
+                Je suis Saifeddine ZAIDI, étudiant passionné en génie
+                informatique à l'Institute International de Technology. Mon
+                parcours académique et mes stages m'ont permis de développer une
+                expertise solide en développement web et mobile.
+              </p>
+              <p>
+                Je crois fermement que
+                <strong>"Great Coders are today's Rock Stars"</strong> et je
+                m'efforce chaque jour de perfectionner mes compétences pour
+                créer des solutions innovantes qui ont un impact positif.
+                Actuellement en formation continue en Intelligence Artificielle.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <h3><i class="fas fa-graduation-cap"></i> Formation</h3>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <h4>Cycle d'ingénieur - Génie Informatique</h4>
+                    <p>Institute International de Technology</p>
+                    <span class="timeline-date">2023 - Présent</span>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <h4>Licence - Informatique Appliquée à la Gestion</h4>
+                    <p>
+                      Faculté des Sciences Économiques et de Gestion de Sfax
+                    </p>
+                    <span class="timeline-date">2022 - 2023</span>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-content">
+                    <h4>Baccalauréat - Sciences Économiques et Gestion</h4>
+                    <p>Lycée Habib Thameur, Sfax</p>
+                    <span class="timeline-date">2019 - 2020</span>
+                  </div>
+                </div>
               </div>
-              <br><br>
-              <a href="https://drive.google.com/file/d/1R9AbMd7JiSYbbFXq8pA42UdEcXy1Zto2/view?usp=sharing" target="_blank">
-                <button>
-                  <span class="circle1"></span>
-                  <span class="circle2"></span>
-                  <span class="circle3"></span>
-                  <span class="circle4"></span>
-                  <span class="circle5"></span>
-                  <span class="text">VOIR MON CV!</span>
-                </button>
+            </div>
+          </div>
+
+          <div class="about-stats" data-aos="fade-left" data-aos-delay="400">
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Projets GitHub</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fas fa-compass"></i>
+                </div>
+                <div class="stat-number">6</div>
+                <div class="stat-label">Domaines explorés</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="stat-number">3</div>
+                <div class="stat-label">Stages réalisés</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">
+                  <i class="fas fa-trophy"></i>
+                </div>
+                <div class="stat-number">2</div>
+                <div class="stat-label">Clubs associatifs</div>
+              </div>
+            </div>
+
+            <div class="contact-info">
+              <h3>
+                <i class="fas fa-address-book"></i> Informations de contact
+              </h3>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>zaidisaif95@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+216 23 508 270</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Sfax, Tunisie</span>
+              </div>
+              <a
+                href="https://drive.google.com/file/d/1R9AbMd7JiSYbbFXq8pA42UdEcXy1Zto2/view?usp=sharing"
+                target="_blank"
+                class="btn btn-outline"
+              >
+                <i class="fas fa-download"></i>
+                Télécharger mon CV
               </a>
             </div>
           </div>
         </div>
-  </section>
-
-  <section class="projects" id="Comp">
-    <div class="section-titleproj">
-      <h2>Compétences</h2>
-      <p> Compétences informatiques maîtrisées</p>
-    </div>
-    <br>
-
-    </div>
-    <div class="containerproj">
-      <div class="skill-box">
-        <span class="title">FRAMEWORK :</span>
-        <span class="title">Bootstrap</span>
-
-        <div class="skill-bar">
-          <span class="skill-per Bootstrap">
-            <span class="tooltip">80%</span>
-          </span>
-        </div>
       </div>
+    </section>
 
-      <div class="skill-box">
-        <span class="title">Symfony</span>
-
-        <div class="skill-bar">
-          <span class="skill-per Symfony">
-            <span class="tooltip">70%</span>
-          </span>
-        </div>
-      </div>
-      <div class="skill-box">
-        <span class="title">Spring boot
-        </span>
-
-        <div class="skill-bar">
-          <span class="skill-per Spring-boot">
-            <span class="tooltip">50%</span>
-          </span>
-        </div>
-      </div>
-      <div class="skill-box">
-        <span class="title">LES LANGUAGES DE PROGRAMMATION :</span>
-        <span class="title">PHP</span>
-
-        <div class="skill-bar">
-          <span class="skill-per php">
-            <span class="tooltip">70%</span>
-          </span>
-        </div>
-      </div>
-      <div class="skill-box">
-        <span class="title">C#</span>
-        <div class="skill-bar">
-          <span class="skill-per Csh">
-            <span class="tooltip">50%</span>
-          </span>
-        </div>
-      </div>
-      <div class="skill-box">
-
-        <span class="title">SQL</span>
-
-        <div class="skill-bar">
-          <span class="skill-per SQL">
-            <span class="tooltip">60%</span>
-          </span>
-        </div>
-      </div>
-      <div class="skill-box">
-
-        <span class="title">JAVA</span>
-
-        <div class="skill-bar">
-          <span class="skill-per JAVA">
-            <span class="tooltip">60%</span>
-          </span>
-        </div>
-      </div>
-      <div class="skill-box">
-        <span class="title">OUTILS DE DÉVELOPPEMENT :</span>
-        <ul>
-          <li class="title"> -> Visual Studio Code</li>
-          <li class="title"> -> Eclipse</li>
-          <li class="title"> -> MySQL</li>
-          <li class="title"> -> Xampp</li>
-          <li class="title"> -> Spring tool suite</li>
-        </ul>
-      </div>
-    </div>
-    </div>
-
-
-  </section>
-
-  <section class="cards contact" id="Event">
-    <div class="section-title">
-      <h2>Vie associative</h2>
-      <p> les manifestations scientifiques, les journées de formation, les
-        évènements</p>
-    </div>
-    <br>
-    <img class="galerie" src="images/int.png" alt="" height="200px" width="200px">
-    <img class="galerie" src="images/fomation.png" alt="" height="200px" width="200px">
-    <img class="galerie" src="images/formation1.png" alt="" height="200px" width="200px">
-    <img class="galerie" src="images/formation2.jpg" alt="" height="200px" width="200px">
-    <img class="galerie" src="images/integration2.png" alt="" height="200px" width="200px">
-    <img class="galerie" src="images/marketing.jpg" alt="" height="200px" width="200px">
-    <img class="galerie" src="images/integ3.jpg" alt="" height="200px" width="200px">
-    <img class="galerie" src="images/integ4.jpg" alt="" height="200px" width="200px">
-    <br><br><br>
-    <div id="resume" class="resume">
+    <section id="skills" class="skills-section">
       <div class="container">
-        <h3 style="text-align: center;">EXPÉRIENCES ASSOCIATIVES</h3>
-        <div class="resume-container">
-          <div class="resume-column">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Mes Compétences</h2>
+          <p>Technologies et outils que je maîtrise</p>
+        </div>
 
-            <br>
-            <div class="resume-item">
-              <h4>Responsable Marketing Digital au Tunisian Programming Lovers Club
-                Fseg Sfax
-              </h4>
-              <h5>2021-2023</h5>
-              <p><em>Faculté des Sciences Economiques et de
-                  Gestion de Sfax (FSEGS)
-                </em></p>
-              <p>
-              <ul>
-                <li> S'occupe de la gestion des réseaux sociaux du club.</li>
-                <li> S'occupe de préparer les vidéos et des affiches du club. </li>
-                <li>Responsable pour construire et développer une image de marque
-                  positive pour valoriser le club.</li>
-              </ul>
-              </p>
+        <div class="skills-categories">
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+            <h3><i class="fas fa-code"></i> Langages de Programmation</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-php"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>PHP</h4>
+                  <div class="skill-level">
+                    <div class="skill-bar" data-width="80%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-java"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>Java</h4>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-microsoft"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>C#</h4>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-python"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>Python (En cours)</h4>
+                </div>
+              </div>
             </div>
           </div>
-          <br>
-          <div class="resume-column">
 
-            <br>
-            <div class="resume-item">
-              <h4>Membre Actif au Club Tunivision Fseg Sfax
-              </h4>
-              <h5>2020-2021</h5>
-              <p><em>Faculté des Sciences Economiques et de
-                  Gestion de Sfax (FSEGS)
-                </em></p>
-              <p>
-              <ul>
-                <li> Participer à des ateliers et à des conférences.</li>
-                <li>Négocier des paquets avec les sponsors. </li>
-                <li>Participer à l'organisation des événements.</li>
-              </ul>
-              </p>
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+            <h3>
+              <i class="fas fa-layer-group"></i> Frameworks & Technologies
+            </h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-react"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>React</h4>
+                  <div class="skill-level">
+                    <div class="skill-bar" data-width="85%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-angular"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>Angular</h4>
+                  <div class="skill-level">
+                    <div class="skill-bar" data-width="75%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-php"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>Symfony</h4>
+                  <div class="skill-level">
+                    <div class="skill-bar" data-width="80%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-php"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>Laravel</h4>
+                  <div class="skill-level">
+                    <div class="skill-bar" data-width="75%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fas fa-leaf"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>Spring Boot</h4>
+                  <div class="skill-level">
+                    <div class="skill-bar" data-width="75%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>Flutter</h4>
+                  <div class="skill-level">
+                    <div class="skill-bar" data-width="80%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+            <h3><i class="fas fa-database"></i> Bases de Données</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fas fa-database"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>MySQL</h4>
+                  <div class="skill-level">
+                    <div class="skill-bar" data-width="85%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon">
+                  <i class="fab fa-microsoft"></i>
+                </div>
+                <div class="skill-info">
+                  <h4>SQL Server</h4>
+                  <div class="skill-level">
+                    <div class="skill-bar" data-width="80%"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
+    </section>
 
-    </div>
-  </section>
-  <section href="#projects" class="projects" id="projects">
-    <div class="section-titleproj">
-      <h2>Projets</h2>
-      <p> Projets acedémique et de fin d'etude</p>
-    </div>
-    <br>
-    <div class="content">
-      <div class="project-card">
-        <div class="project-image">
-          <img src="images/gestion_miss.png" />
-        </div>
-        <div class="project-info">
-          <p class="project-category">Développement web</p>
-          <strong class="project-title">
-            <span>Gestion des missions internes et externes</span>
-
-          </strong>
-          <p>l'Université de Sfax nous a proposé de concevoir et de réaliser une
-            application Web intitulée « gestion des missions internes et externes » dans le cadre d'un
-            projet de fin d'étude d'où l'objet est d'informatiser les tâches des membres de l'université, la
-            consultation, l'affectation et la validation des ordres des missions ainsi que les demandes des
-            missions.</p>
-          <a href="https://github.com/zaidi280/Gestion-Mission" class="more-details">Plus de détails</a>
-        </div>
-      </div>
-      <div class="project-card">
-        <div class="project-image">
-          <img src="images/gestion_cabinet.png" />
-        </div>
-        <div class="project-info">
-          <p class="project-category">Développement web</p>
-          <strong class="project-title">
-            <span>Gestion de cabinet</span>
-          </strong>
-          <p>L'objectif de ce projet est de mettre en place une application
-            web pour géreér les rendez-vous d'un cabinet de médecin
-            généraliste. C'est une simple application académique Crud
-            faite avec PHP/Bootstrap et le modèle MVC </p>
-          <a href="https://github.com/zaidi280/web-application-project" class="more-details">Plus de détails</a>
-        </div>
-      </div>
-  </section>
-  <section class="cards contact" id="Interet">
-    <div class="section-title">
-      <h2>CENTRES D'INTÉRÊT</h2>
-      <p> Centre d'INTÉRÊT et Soft skills</p>
-    </div>
-    <div id="resume" class="resume">
+    <section id="associatif" class="associatif-section">
       <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Vie Associative</h2>
+          <p>Mon engagement dans les clubs et associations universitaires</p>
+        </div>
 
-        <div class="resume-container">
-          <div class="resume-column">
+        <div class="associatif-content">
+          <div
+            class="associatif-timeline"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Responsable Marketing Digital</h3>
+                <h4>Tunisian Programming Lovers Club FSEGS</h4>
+                <span class="timeline-date">2021 - 2023</span>
+                <p>
+                  Gestion complète de la communication digitale du club,
+                  création de contenu visuel, organisation d'événements
+                  technologiques et développement de stratégies marketing.
+                </p>
+                <div class="achievements">
+                  <div class="achievement">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Gestion des réseaux sociaux</span>
+                  </div>
+                  <div class="achievement">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Création de vidéos et affiches</span>
+                  </div>
+                  <div class="achievement">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Valorisation de l'image du club</span>
+                  </div>
+                  <div class="achievement">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Organisation d'événements</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <br>
-            <div class="resume-item">
-              <h4>CENTRES D'INTÉRÊT
-              </h4>
-              <p>
-              <ul>
-                <li> Les Nouvelles compétitions et technologies.</li>
-                <li> Ui / Ux Design .</li>
-                <li>Marketing.</li>
-                <li>Musique.</li>
-              </ul>
-              </p>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Membre Actif</h3>
+                <h4>Club Tunivision FSEGS</h4>
+                <span class="timeline-date">2020 - 2021</span>
+                <p>
+                  Participation active aux activités du club, développement de
+                  compétences en gestion de projet et en communication,
+                  organisation d'événements et négociation avec les sponsors.
+                </p>
+                <div class="achievements">
+                  <div class="achievement">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Participation aux ateliers</span>
+                  </div>
+                  <div class="achievement">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Organisation de conférences</span>
+                  </div>
+                  <div class="achievement">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Négociation avec sponsors</span>
+                  </div>
+                  <div class="achievement">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Gestion d'événements</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <br>
-          <div class="resume-column">
 
-            <br>
-            <div class="resume-item">
-
-              <h4>Soft skills
-              </h4>
-              <p>
-              <ul>
-                <li> La responsabilité.</li>
-                <li>Sens des priorités. </li>
-                <li>Confiance en soi.
-                </li>
-              </ul>
-              </p>
+          <div
+            class="associatif-gallery"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          >
+            <h3><i class="fas fa-images"></i> Galerie d'événements</h3>
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="images/int.png" alt="Intégration" />
+                <div class="gallery-overlay">
+                  <h4>Journée d'intégration</h4>
+                  <p>Accueil des nouveaux membres</p>
+                </div>
+              </div>
+              <div class="gallery-item">
+                <img src="images/fomation.png" alt="Formation" />
+                <div class="gallery-overlay">
+                  <h4>Formation technique</h4>
+                  <p>Ateliers de programmation</p>
+                </div>
+              </div>
+              <div class="gallery-item">
+                <img src="images/formation1.png" alt="Formation 1" />
+                <div class="gallery-overlay">
+                  <h4>Workshop développement</h4>
+                  <p>Formation pratique</p>
+                </div>
+              </div>
+              <div class="gallery-item">
+                <img src="images/formation2.jpg" alt="Formation 2" />
+                <div class="gallery-overlay">
+                  <h4>Conférence technologique</h4>
+                  <p>Présentation d'innovations</p>
+                </div>
+              </div>
+              <div class="gallery-item">
+                <img src="images/integration2.png" alt="Intégration 2" />
+                <div class="gallery-overlay">
+                  <h4>Événement d'intégration</h4>
+                  <p>Team building</p>
+                </div>
+              </div>
+              <div class="gallery-item">
+                <img src="images/marketing.jpg" alt="Marketing" />
+                <div class="gallery-overlay">
+                  <h4>Campagne marketing</h4>
+                  <p>Promotion du club</p>
+                </div>
+              </div>
+              <div class="gallery-item">
+                <img src="images/integ3.jpg" alt="Intégration 3" />
+                <div class="gallery-overlay">
+                  <h4>Activité associative</h4>
+                  <p>Engagement communautaire</p>
+                </div>
+              </div>
+              <div class="gallery-item">
+                <img src="images/integ4.jpg" alt="Intégration 4" />
+                <div class="gallery-overlay">
+                  <h4>Événement spécial</h4>
+                  <p>Célébration des réussites</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
-
-    </div>
-  </section>
-  
-  <section class="cards contact" id="contact">
-    <h2 class="title">Let's work together</h2>
-    <div class="content">
-        <div class="card">
-            <div class="icon">
-                <i class="fas fa-phone"></i>
-            </div>
-            <div class="info">
-                <h3>Téléphone</h3>
-                <p>+216 23 508 270</p>
-            </div>
+    </section>
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Mes Projets</h2>
+          <p>Découvrez mes réalisations et projets de développement</p>
         </div>
-        <div class="card">
-            <div class="icon">
-                <i class="fas fa-envelope"></i>
-            </div>
-            <div class="info">
-                <h3>Email</h3>
-                <p>zaidisaif95@gmail.com</p>
-            </div>
+
+        <div class="project-filters" data-aos="fade-up" data-aos-delay="100">
+          <button class="filter-btn active" data-filter="all">Tous</button>
+          <button class="filter-btn" data-filter="internship">Stages</button>
+          <button class="filter-btn" data-filter="academic">Académique</button>
         </div>
-    </div>
-</section>
 
-  <footer class="footer">
-    <p class="footer-title">Copyrights @ <span>Seifeddine ZAIDI</span></p>
-    <div class="social-icons">
-      <a href="https://www.linkedin.com/in/saifeddine-zaidi-2394a9221/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/zaidi280" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.facebook.com/zaidi.saif.980/" target="_blank"><i class="fab fa-facebook"></i></a>
-    </div>
-  </footer>
-</body>
+        <div class="projects-grid">
+          <div
+            class="project-card"
+            data-category="internship web"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/zaidi280/Conception-et-d-veloppement-d-une-application-web-de-gestion-des-visiteurs"
+                    target="_blank"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">Angular</span>
+                <span class="tech-tag">SQL Server</span>
+                <span class="tech-tag">Spring Boot</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Gestion des Visiteurs - Clinisys</h3>
+              <p>
+                Application web de gestion des visiteurs pour l'hôpital
+                militaire avec tableau de bord, cartes, graphiques et chatbot
+                intégré.
+              </p>
+              <div class="project-meta">
+                <span class="project-type">Stage Web</span>
+                <span class="project-year">2025</span>
+              </div>
+            </div>
+          </div>
 
+          <div
+            class="project-card"
+            data-category="internship mobile"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/zaidi280/stage-cockpit"
+                    target="_blank"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Stage Cockpit - Smart Factory</h3>
+              <p>
+                Application mobile pour le suivi de l'énergie avec courbes de
+                température, alertes et notifications par email/SMS.
+              </p>
+              <div class="project-meta">
+                <span class="project-type">Stage Mobile</span>
+                <span class="project-year">2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card"
+            data-category="academic"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/zaidi280/quizapp"
+                    target="_blank"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">Dart</span>
+                <span class="tech-tag">Flutter</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Quiz App</h3>
+              <p>
+                Application interactive de quiz avec système de scoring, timer
+                et questions dynamiques.
+              </p>
+              <div class="project-meta">
+                <span class="project-type">Projet Académique</span>
+                <span class="project-year">2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card"
+            data-category="internship web"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/zaidi280/Gestion-Mission"
+                    target="_blank"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">Symfony</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Gestion des Missions - Université de Sfax</h3>
+              <p>
+                Application web d'informatisation des tâches des membres de
+                l'université, consultation, affectation et validation des ordres
+                de missions.
+              </p>
+              <div class="project-meta">
+                <span class="project-type">Stage Web</span>
+                <span class="project-year">2023</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card"
+            data-category="academic"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/zaidi280/E-COM"
+                    target="_blank"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Bootstrap</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>E-Commerce Platform</h3>
+              <p>
+                Plateforme e-commerce complète avec gestion des produits, panier
+                d'achat et système de paiement.
+              </p>
+              <div class="project-meta">
+                <span class="project-type">Projet Académique</span>
+                <span class="project-year">2024</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card"
+            data-category="academic"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a
+                    href="https://github.com/zaidi280/web-application-project"
+                    target="_blank"
+                    class="project-link"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MVC</span>
+                <span class="tech-tag">PDO</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Cabinet Médical</h3>
+              <p>
+                Application web de gestion des rendez-vous pour cabinet médical
+                avec architecture MVC et POO.
+              </p>
+              <div class="project-meta">
+                <span class="project-type">Projet Académique</span>
+                <span class="project-year">2022</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="experience-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Expérience Professionnelle</h2>
+          <p>Mes stages et expériences de développement</p>
+        </div>
+
+        <div class="experience-content">
+          <div
+            class="experience-timeline"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Stagiaire en développement Web</h3>
+                <h4>Clinisys ERP</h4>
+                <span class="timeline-date">Juin 2025 - Août 2025</span>
+                <p>
+                  Dans le cadre du projet de stage d'été, notre mission consiste
+                  à développer une application web de gestion des visiteurs pour
+                  l'hôpital militaire. La solution aide le personnel à registre,
+                  à modifier et à vérifier les entrées et sorties en temps réel.
+                  L'application a un tableau de bord avec cartes et graphiques
+                  pour suivre le nombre journalier de visites, identifier les
+                  heures de pointe et analyser les tendances. Des filtres et
+                  indicateurs, tels que la durée moyenne de visite et la
+                  répartition par type, facilitent le pilotage. Un chatbot
+                  intégré assiste le personnel dans l'utilisation du site et la
+                  gestion des fonctionnalités.
+                </p>
+                <div class="timeline-tech">
+                  <span class="tech-tag">Angular</span>
+                  <span class="tech-tag">SQL Server</span>
+                  <span class="tech-tag">Spring Boot</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Stagiaire en développement Mobile</h3>
+                <h4>Cockpit Smart Factory</h4>
+                <span class="timeline-date">Juin 2024 - Août 2024</span>
+                <p>
+                  Dans le cadre du projet de stage d'été, nous visons à créer
+                  une application mobile permettant aux différents clients de la
+                  société Cockpit de faire le suivi de l'énergie avec des
+                  courbes qui présentent par exemple les températures des
+                  refroidisseurs, des friteuses, des traitements chimiques, etc.
+                  L'application comporte aussi une section d'alerte. Le client
+                  peut ajouter une alerte en cas de problème ou de dépassement
+                  d'un certain seuil de température, et il peut la transférer à
+                  un employé qui est connecté par email ou SMS.
+                </p>
+                <div class="timeline-tech">
+                  <span class="tech-tag">Flutter</span>
+                  <span class="tech-tag">Firebase</span>
+                  <span class="tech-tag">Mobile Development</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h3>Stagiaire en développement Web</h3>
+                <h4>Université de Sfax</h4>
+                <span class="timeline-date">Févr. 2023 - Avr. 2023</span>
+                <p>
+                  Conception et réalisation d'une application web intitulée «
+                  gestion des missions internes et externes » dans le cadre d'un
+                  projet de fin d'étude. L'objet est d'informatiser les tâches
+                  des membres de l'université, la consultation, l'affectation et
+                  la validation des ordres des missions ainsi que les demandes
+                  des missions.
+                </p>
+                <div class="timeline-tech">
+                  <span class="tech-tag">PHP</span>
+                  <span class="tech-tag">Symfony</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Bootstrap</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="interests-skills"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          >
+            <div class="interests-card">
+              <h3><i class="fas fa-heart"></i> Centres d'intérêt</h3>
+              <div class="interests-grid">
+                <div class="interest-item">
+                  <i class="fas fa-code"></i>
+                  <span>Développement</span>
+                </div>
+                <div class="interest-item">
+                  <i class="fas fa-palette"></i>
+                  <span>UI/UX Design</span>
+                </div>
+                <div class="interest-item">
+                  <i class="fas fa-chart-line"></i>
+                  <span>Marketing Digital</span>
+                </div>
+                <div class="interest-item">
+                  <i class="fas fa-music"></i>
+                  <span>Musique</span>
+                </div>
+                <div class="interest-item">
+                  <i class="fas fa-gamepad"></i>
+                  <span>Gaming</span>
+                </div>
+                <div class="interest-item">
+                  <i class="fas fa-book"></i>
+                  <span>Lecture</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="soft-skills-card">
+              <h3><i class="fas fa-users"></i> Soft Skills</h3>
+              <div class="skills-list">
+                <div class="skill-item">
+                  <span class="skill-name">Leadership</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="85%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Communication</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Travail d'équipe</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="88%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Gestion du temps</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="82%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <span class="skill-name">Résolution de problèmes</span>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-width="95%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2>Contactez-moi</h2>
+          <p>Travaillons ensemble sur votre prochain projet</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+            <h3>Parlons de votre projet</h3>
+            <p>
+              Je suis toujours intéressé par de nouveaux défis et opportunités.
+              N'hésitez pas à me contacter pour discuter de votre projet.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>zaidisaif95@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Téléphone</h4>
+                  <p>+216 23 508 270</p>
+                </div>
+              </div>
+
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Localisation</h4>
+                  <p>Sfax, Tunisie</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/saifeddine-zaidi-2394a9221/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a
+                href="https://github.com/zaidi280"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a
+                href="https://www.facebook.com/zaidi.saif.980/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form" data-aos="fade-left" data-aos-delay="400">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" name="name" required />
+                <label for="name">Nom complet</label>
+              </div>
+
+              <div class="form-group">
+                <input type="email" id="email" name="email" required />
+                <label for="email">Email</label>
+              </div>
+
+              <div class="form-group">
+                <input type="text" id="subject" name="subject" required />
+                <label for="subject">Sujet</label>
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+                <label for="message">Message</label>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i>
+                Envoyer le message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <h3>Saifeddine ZAIDI</h3>
+            <p>
+              Développeur Full-Stack passionné par l'innovation technologique
+            </p>
+          </div>
+          <div class="footer-links">
+            <a href="#about">À propos</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projets</a>
+            <a href="#associatif">Vie associative</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com/in/saifeddine-zaidi-2394a9221/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/zaidi280"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/zaidi.saif.980/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Saifeddine ZAIDI. Tous droits réservés.</p>
+          <p>Développé avec ❤️ par Saifeddine ZAIDI</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      // Initialize AOS
+      AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100,
+      });
+
+      // Theme Toggle
+      const themeToggle = document.getElementById("theme-toggle");
+      const body = document.body;
+
+      // Check for saved theme preference or default to light mode
+      const currentTheme = localStorage.getItem("theme") || "light";
+      body.classList.toggle("dark-theme", currentTheme === "dark");
+      updateThemeIcon(currentTheme);
+
+      themeToggle.addEventListener("click", () => {
+        body.classList.toggle("dark-theme");
+        const isDark = body.classList.contains("dark-theme");
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+        updateThemeIcon(isDark ? "dark" : "light");
+      });
+
+      function updateThemeIcon(theme) {
+        const icon = themeToggle.querySelector("i");
+        icon.className = theme === "dark" ? "fas fa-sun" : "fas fa-moon";
+      }
+
+      // Mobile Menu Toggle
+      const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+      const navigation = document.querySelector(".navigation");
+
+      mobileMenuToggle.addEventListener("click", () => {
+        navigation.classList.toggle("active");
+        mobileMenuToggle.classList.toggle("active");
+      });
+
+      // Close mobile menu when clicking on a link
+      document.querySelectorAll(".navigation a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navigation.classList.remove("active");
+          mobileMenuToggle.classList.remove("active");
+        });
+      });
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Project Filter
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const projectCards = document.querySelectorAll(".project-card");
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          // Remove active class from all buttons
+          filterButtons.forEach((btn) => btn.classList.remove("active"));
+          // Add active class to clicked button
+          button.classList.add("active");
+
+          const filter = button.getAttribute("data-filter");
+
+          projectCards.forEach((card) => {
+            const cardCategory = card.getAttribute("data-category");
+            if (
+              filter === "all" ||
+              cardCategory === filter ||
+              (filter === "internship" && cardCategory.includes("internship"))
+            ) {
+              card.style.display = "block";
+              card.style.animation = "fadeInUp 0.5s ease forwards";
+            } else {
+              card.style.display = "none";
+            }
+          });
+        });
+      });
+
+      // Skill Bar Animation
+      const skillBars = document.querySelectorAll(
+        ".skill-bar, .skill-progress"
+      );
+
+      const animateSkillBars = () => {
+        skillBars.forEach((bar) => {
+          const width = bar.getAttribute("data-width");
+          if (bar.offsetTop < window.scrollY + window.innerHeight) {
+            bar.style.width = width;
+          }
+        });
+      };
+
+      window.addEventListener("scroll", animateSkillBars);
+      animateSkillBars(); // Run once on load
+
+      // Contact Form
+      const contactForm = document.getElementById("contactForm");
+
+      contactForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // Get form data
+        const formData = new FormData(contactForm);
+        const name = formData.get("name");
+        const email = formData.get("email");
+        const subject = formData.get("subject");
+        const message = formData.get("message");
+
+        // Create mailto link
+        const mailtoLink = `mailto:zaidisaif95@gmail.com?subject=${encodeURIComponent(
+          subject
+        )}&body=${encodeURIComponent(
+          `Nom: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+        )}`;
+
+        // Open email client
+        window.location.href = mailtoLink;
+
+        // Show success message
+        const submitBtn = contactForm.querySelector('button[type="submit"]');
+        const originalText = submitBtn.innerHTML;
+        submitBtn.innerHTML = '<i class="fas fa-check"></i> Message envoyé!';
+        submitBtn.style.background = "#28a745";
+
+        // Reset form
+        contactForm.reset();
+
+        // Reset button after 3 seconds
+        setTimeout(() => {
+          submitBtn.innerHTML = originalText;
+          submitBtn.style.background = "";
+        }, 3000);
+      });
+
+      // Scroll indicator
+      const scrollIndicator = document.querySelector(".scroll-indicator");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          scrollIndicator.style.opacity = "0";
+        } else {
+          scrollIndicator.style.opacity = "1";
+        }
+      });
+
+      // Add scroll indicator click functionality
+      scrollIndicator.addEventListener("click", () => {
+        document.querySelector("#about").scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+
+      // Typing effect for hero text
+      const heroTitle = document.querySelector(".hero h1");
+      if (heroTitle) {
+        const text = heroTitle.textContent;
+        heroTitle.textContent = "";
+        let i = 0;
+
+        const typeWriter = () => {
+          if (i < text.length) {
+            heroTitle.textContent += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, 100);
+          }
+        };
+
+        setTimeout(typeWriter, 1000);
+      }
+    </script>
+  </body>
 </html>
